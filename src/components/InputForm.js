@@ -27,7 +27,7 @@ function InputForm({addItem}){
           <div className="col-md-4">
               <button 
                 type="submit" 
-                class="btn btn-primary" 
+                className="btn btn-primary" 
                 onClick={e => addItemHandler(e)}
               >
                 Add

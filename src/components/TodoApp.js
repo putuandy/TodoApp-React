@@ -31,7 +31,7 @@ class TodoApp extends React.Component {
   completeTodo = index => {
     this.setState(prevState => {
       let prevTodos = [...prevState.todos];
-      prevTodos[index].isCompleted = !prevTodos[index].isCompleted;
+      prevTodos[index].isCompleted = true;
       return {
         prevTodos
       }
